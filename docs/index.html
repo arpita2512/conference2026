@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>AI-Medical CDT Conference 2026 – CDT Conference</title>
+<title>AI-Medical PGR Conference 2026 – AI-Medical PGR Conference</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -78,7 +78,7 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-keynotes .list');
+    const listingTargetEl = window.document.querySelector('#listing-speakers .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
@@ -91,7 +91,7 @@ ul.task-list li input[type="checkbox"] {
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-keynotes'] = new List('listing-keynotes', options);
+    window['quarto-listings']['listing-speakers'] = new List('listing-speakers', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -134,34 +134,6 @@ ul.task-list li input[type="checkbox"] {
   
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-students .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-name','listing-role','listing-image','listing-href',{ data: ['index'] },{ data: ['categories'] }],
-      
-      searchColumns: ["listing-name","listing-role","listing-image","listing-href"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-students'] = new List('listing-students', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-agenda .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -169,9 +141,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-time','listing-title','listing-description','listing-logo','listing-abstract',{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-time','listing-title','listing-description','listing-logo',{ data: ['index'] },{ data: ['categories'] }],
       
-      searchColumns: ["listing-time","listing-title","listing-description","listing-logo","listing-abstract"],
+      searchColumns: ["listing-time","listing-title","listing-description","listing-logo"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -204,34 +176,6 @@ ul.task-list li input[type="checkbox"] {
 
     window['quarto-listings'] = window['quarto-listings'] || {};
     window['quarto-listings']['listing-gallery'] = new List('listing-gallery', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-panel .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-name','listing-affiliation','listing-role','listing-image','listing-href','listing-bio',{ data: ['index'] },{ data: ['categories'] }],
-      
-      searchColumns: ["listing-name","listing-affiliation","listing-role","listing-image","listing-href","listing-bio"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-panel'] = new List('listing-panel', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -372,8 +316,8 @@ window.Quarto = {
 <span class="menu-text">Call for Abstracts</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./index.html#sec-keynotes"> 
-<span class="menu-text">Keynotes</span></a>
+    <a class="nav-link" href="./index.html#sec-speakers"> 
+<span class="menu-text">Speakers</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./index.html#sec-agenda"> 
@@ -418,7 +362,7 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">UKRI Centre for Doctoral Training in<br>AI for Medical Diagnosis and Care<br><br>Annual CDT Conference<br><b><br><br></b></h1><b>
+      <h1 class="title"><br><br>AI-Medical PGR Conference<br><b><br><br></b></h1><b>
             <p class="subtitle lead"><i class="fa-solid fa-calendar-days" aria-label="calendar-days"></i><b> Tuesday, 16 June 2026<br> <i class="fa-solid fa-location-dot" aria-label="location-dot"></i> Nexus, Leeds</b></p>
                       </b></div><b>
   </b></div><b>
@@ -521,58 +465,29 @@ No matching items
 <li>Receive Expert Feedback: Engage in Q&amp;A with leading clinicians, AI innovators, and senior academics.</li>
 <li>Network &amp; Collaborate: Join a multidisciplinary community of PGR students, industry and public sector partners to forge potential research collaborations.</li>
 </ul>
-<section id="submission-deadline-20th-april-2026" class="level4">
-<h4 class="anchored" data-anchor-id="submission-deadline-20th-april-2026">Submission Deadline: 20th April 2026</h4>
 </section>
-<section id="notification-of-acceptance-1st-may-2026" class="level4">
-<h4 class="anchored" data-anchor-id="notification-of-acceptance-1st-may-2026">Notification of Acceptance: 1st May 2026</h4>
+<section id="submission-deadline-20th-april-2026" class="level3">
+<h3 class="anchored" data-anchor-id="submission-deadline-20th-april-2026">Submission Deadline: 20th April 2026</h3>
+</section>
+<section id="notification-of-acceptance-1st-may-2026" class="level3">
+<h3 class="anchored" data-anchor-id="notification-of-acceptance-1st-may-2026">Notification of Acceptance: 1st May 2026</h3>
 </section>
 </section>
-</section>
-<section id="sec-keynotes" class="level1">
-<h1>Keynotes</h1>
-<div id="listing-keynotes" class="quarto-listing quarto-listing-container-custom">
+<section id="sec-speakers" class="level1">
+<h1>Speakers</h1>
+<div id="listing-speakers" class="quarto-listing quarto-listing-container-custom">
 <div class="d-grid gap-4" style="grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));">
 
     <div class="text-center">
         <a href="" class="listing-title" target="_blank"><img class="rounded-circle img-fluid" src="assets/imgs/placeholder.png" style="max-width: 200px"></a>
-        <p class="fs-4 mt-2 mb-0">TBC</p>
-        <p class="mb-0">TBC</p>
+        <p class="fs-4 mt-2 mb-0">Ibrahim Habli</p>
+        <p class="mb-0">University of York</p>
     </div>
 
     <div class="text-center">
         <a href="" class="listing-title" target="_blank"><img class="rounded-circle img-fluid" src="assets/imgs/placeholder.png" style="max-width: 200px"></a>
         <p class="fs-4 mt-2 mb-0">TBC</p>
         <p class="mb-0">TBC</p>
-    </div>
-
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</section>
-<section id="sec-panel" class="level1">
-<h1>Industry Panel</h1>
-<div id="listing-panel" class="quarto-listing quarto-listing-container-custom">
-<div class="d-grid gap-4" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
-
-    <div class="text-center">
-        <a href="" class="listing-title" target="_blank"><img class="rounded-circle img-fluid" src="assets/imgs/placeholder.png" style="max-width: 200px"></a>
-        <p class="fs-4 mt-2 mb-0" style="font-size: 150px;">TBC</p>
-        <p class="mb-0" style="font-weight: 350;"><a href="listings/bio_general.html" style="font-weight: bold;">:</a></p>
-    </div>
-
-    <div class="text-center">
-        <a href="" class="listing-title" target="_blank"><img class="rounded-circle img-fluid" src="assets/imgs/placeholder.png" style="max-width: 200px"></a>
-        <p class="fs-4 mt-2 mb-0" style="font-size: 150px;">TBC</p>
-        <p class="mb-0" style="font-weight: 350;"><a href="listings/bio_general.html" style="font-weight: bold;">:</a></p>
-    </div>
-
-    <div class="text-center">
-        <a href="" class="listing-title" target="_blank"><img class="rounded-circle img-fluid" src="assets/imgs/placeholder.png" style="max-width: 200px"></a>
-        <p class="fs-4 mt-2 mb-0" style="font-size: 150px;">TBC</p>
-        <p class="mb-0" style="font-weight: 350;"><a href="listings/bio_general.html" style="font-weight: bold;">:</a></p>
     </div>
 
 </div>
@@ -588,106 +503,106 @@ No matching items
 <div class="events">
     
     <div class="event-entry">
-        <span class="event-time">10:00-10:30</span>
+        <span class="event-time">09:00-09:30</span>
         <div class="body">
-            <p class="event-title">Registration</p>
+            <p class="event-title">Registration and networking</p>
             
             <p class="event-description">Sign in at the registration desk</p>
             
         </div>
         <div class="logo">
             
-            <img src="assets/imgs/icons/reg.png" alt="Registration" title="Registration">
+            <img src="assets/imgs/icons/reg.png" alt="Registration and networking" title="Registration and networking">
             
         </div>
     </div>
     
     <div class="event-entry">
-        <span class="event-time">10:30-10:35</span>
+        <span class="event-time">09:30-09:35</span>
         <div class="body">
-            <p class="event-title">Welcome and Introduction</p>
+            <p class="event-title">Welcome</p>
             
             <p class="event-description">A warm welcome and an introduction to the event from our CDT director.</p>
             
         </div>
         <div class="logo">
             
-            <img src="assets/imgs/icons/keynote.png" alt="Welcome and Introduction" title="Welcome and Introduction">
+            <img src="assets/imgs/icons/keynote.png" alt="Welcome" title="Welcome">
             
         </div>
     </div>
     
     <div class="event-entry">
-        <span class="event-time">10:35-11:30</span>
+        <span class="event-time">09:35-11:00</span>
         <div class="body">
-            <p class="event-title">Keynote by Florian Markowetz</p>
+            <p class="event-title">AI for Health PGR community – Part 1</p>
             
-            <p><a href="listings/keynote1_abs.html" class="event-description">:All models are wrong and yours are useless: making clinical prediction models impactful for patients</a></p>
+            <p class="event-description">A collection of short presentations by students showcasing their research.</p>
             
         </div>
         <div class="logo">
             
-            <img src="assets/imgs/icons/keynote.png" alt="Keynote by Florian Markowetz" title="Keynote by Florian Markowetz">
+            <img src="assets/imgs/icons/spotlight.png" alt="AI for Health PGR community – Part 1" title="AI for Health PGR community – Part 1">
             
         </div>
     </div>
     
     <div class="event-entry">
-        <span class="event-time">11:30-12:00</span>
+        <span class="event-time">11:00-11:30</span>
         <div class="body">
-            <p class="event-title">Spotlights - Session 1</p>
+            <p class="event-title">PGR posters and networking with coffee/tea</p>
             
-            <p class="event-description">A collection of short presentations by CDT students showcasing their research.</p>
+            <p class="event-description">Time to unleash your inner art critic for poster presentations from students.</p>
             
         </div>
         <div class="logo">
             
-            <img src="assets/imgs/icons/spotlight.png" alt="Spotlights - Session 1" title="Spotlights - Session 1">
+            <img src="assets/imgs/icons/poster.png" alt="PGR posters and networking with coffee/tea" title="PGR posters and networking with coffee/tea">
             
         </div>
     </div>
     
     <div class="event-entry">
-        <span class="event-time">12:00-13:00</span>
+        <span class="event-time">11:30-12:45</span>
         <div class="body">
-            <p class="event-title">Posters - Session 1</p>
+            <p class="event-title">Developing responsible and trustworthy AI</p>
             
-            <p class="event-description">Time to unleash your inner art critic for poster presentations from our CDT students.</p>
+            <p class="event-description">A discussion about building responsible and trustworthy AI</p>
             
         </div>
         <div class="logo">
             
-            <img src="assets/imgs/icons/poster.png" alt="Posters - Session 1" title="Posters - Session 1">
+            <img src="assets/imgs/icons/panel.png" alt="Developing responsible and trustworthy AI" title="Developing responsible and trustworthy AI">
             
         </div>
     </div>
     
     <div class="event-entry">
-        <span class="event-time">13:00-14:00</span>
+        <span class="event-time">12:45-13:45</span>
         <div class="body">
-            <p class="event-title">Lunch and Networking</p>
+            <p class="event-title">Networking Lunch</p>
             
             <p class="event-description">The heart and soul of any conference is the food and networking.</p>
             
         </div>
         <div class="logo">
             
-            <img src="assets/imgs/icons/food.png" alt="Lunch and Networking" title="Lunch and Networking">
+            <img src="assets/imgs/icons/food.png" alt="Networking Lunch" title="Networking Lunch">
             
         </div>
     </div>
     
     <div class="event-entry">
-        <span class="event-time">14:00-15:00</span>
+        <span class="event-time">13:45-15:00</span>
         <div class="body">
-            <p class="event-title">Keynote by Pearl Pu</p>
+            <p class="event-title">AI for Health PGR community – Part 2</p>
             
-            <p><a href="listings/keynote2_abs.html" class="event-description">:Building Empathetic AI: Reflections on Experimental Design and the Future of AI</a></p>
+            <p class="event-description">A collection of short presentations by students showcasing their research.</p>
             
         </div>
         <div class="logo">
             
-            <img src="assets/imgs/icons/keynote.png" alt="Keynote by Pearl Pu" title="Keynote by Pearl Pu">
+            <img src="assets/imgs/icons/spotlight.png" alt="AI for Health PGR community – Part 2" title="AI for Health PGR community – Part 2">
             
         </div>
     </div>
@@ -695,59 +610,59 @@ No matching items
     <div class="event-entry">
         <span class="event-time">15:00-15:30</span>
         <div class="body">
-            <p class="event-title">Spotlights - Session 2</p>
+            <p class="event-title">PGR posters and networking with coffee/tea</p>
             
-            <p class="event-description">A collection of short presentations by CDT students showcasing their research.</p>
+            <p class="event-description">Time to unleash your inner art critic for poster presentations from students.</p>
             
         </div>
         <div class="logo">
             
-            <img src="assets/imgs/icons/spotlight.png" alt="Spotlights - Session 2" title="Spotlights - Session 2">
+            <img src="assets/imgs/icons/poster.png" alt="PGR posters and networking with coffee/tea" title="PGR posters and networking with coffee/tea">
             
         </div>
     </div>
     
     <div class="event-entry">
-        <span class="event-time">15:30-16:30</span>
+        <span class="event-time">15:30-16:45</span>
         <div class="body">
-            <p class="event-title">Posters - Session 2</p>
+            <p class="event-title">Challenges for the regulation of Medical AI (TBC)</p>
             
-            <p class="event-description">Time to unleash your inner art critic for poster presentations from our CDT students.</p>
+            <p class="event-description">A discussion about regulatory guidleines for developing medical AI</p>
             
         </div>
         <div class="logo">
             
-            <img src="assets/imgs/icons/poster.png" alt="Posters - Session 2" title="Posters - Session 2">
+            <img src="assets/imgs/icons/panel.png" alt="Challenges for the regulation of Medical AI (TBC)" title="Challenges for the regulation of Medical AI (TBC)">
             
         </div>
     </div>
     
     <div class="event-entry">
-        <span class="event-time">16:30-18:00</span>
+        <span class="event-time">16:45-16:50</span>
         <div class="body">
-            <p class="event-title">Industry Panel</p>
+            <p class="event-title">Closing Remarks</p>
             
-            <p class="event-description">A discussion about cutting-edge commercial research at the intersection of AI and healthcare.</p>
+            <p class="event-description">Concluding remarks and thanks from our CDT director.</p>
             
         </div>
         <div class="logo">
             
-            <img src="assets/imgs/icons/panel.png" alt="Industry Panel" title="Industry Panel">
+            <img src="assets/imgs/icons/keynote.png" alt="Closing Remarks" title="Closing Remarks">
             
         </div>
     </div>
     
     <div class="event-entry">
-        <span class="event-time">18:00-20:00</span>
+        <span class="event-time">16:45 onwards</span>
         <div class="body">
-            <p class="event-title">Reception and Dinner</p>
+            <p class="event-title">Drinks Reception</p>
             
             <p class="event-description">The heart and soul of any conference is the food and networking.</p>
             
         </div>
         <div class="logo">
             
-            <img src="assets/imgs/icons/food.png" alt="Reception and Dinner" title="Reception and Dinner">
+            <img src="assets/imgs/icons/food.png" alt="Drinks Reception" title="Drinks Reception">
             
         </div>
     </div>
@@ -763,40 +678,13 @@ No matching items
 <hr style="height:1.5pt; visibility:hidden;">
 <div class="cell">
 <div class="cell-output-display">
-<div class="leaflet html-widget html-fill-item" id="htmlwidget-1872ab453662cec3ecfa" style="width:100%;height:464px;"></div>
-<script type="application/json" data-for="htmlwidget-1872ab453662cec3ecfa">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"setView":[[53.805251,-1.550028],15,[]],"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addEasyButton","args":[{"icon":"ion-arrow-shrink","title":"Reset View","onClick":"function(btn, map){ map.setView(map._initialCenter, map._initialZoom); }","position":"topleft"}]},{"method":"addPopups","args":[53.805251,-1.550028,"<a href='https://www.google.co.uk/maps/dir//Nexus+-+University+of+Leeds,+Discovery+Way,+Leeds+LS2+3AA/@53.8052821,-1.5502785,15z/data=!4m9!4m8!1m0!1m5!1m1!1s0x48795c028b513609:0x6014fd660699c8ee!2m2!1d-1.5502785!2d53.8052821!3e0' target='_blank' style='font-weight:bold'>Nexus<\/a><br/>Discovery Way<br/>University of Leeds<br/>Leeds, LS2 3AA",null,null,{"maxWidth":300,"minWidth":50,"autoPan":true,"keepInView":false,"closeButton":false,"closeOnClick":false,"className":"","autoClose":false}]}],"limits":{"lat":[53.805251,53.805251],"lng":[-1.550028,-1.550028]}},"evals":["calls.1.args.0.onClick"],"jsHooks":{"render":[{"code":"function(el, x, data) {\n  return (\nfunction(el, x){\n  var map = this;\n  map.whenReady(function(){\n    map._initialCenter = map.getCenter();\n    map._initialZoom = map.getZoom();\n  });\n}).call(this.getMap(), el, x, data);\n}","data":null}]}}</script>
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-91f0d02f03b05b14c0f1" style="width:100%;height:464px;"></div>
+<script type="application/json" data-for="htmlwidget-91f0d02f03b05b14c0f1">{"x":{"options":{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}}},"setView":[[53.805251,-1.550028],15,[]],"calls":[{"method":"addTiles","args":["https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",null,null,{"minZoom":0,"maxZoom":18,"tileSize":256,"subdomains":"abc","errorTileUrl":"","tms":false,"noWrap":false,"zoomOffset":0,"zoomReverse":false,"opacity":1,"zIndex":1,"detectRetina":false,"attribution":"&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"}]},{"method":"addEasyButton","args":[{"icon":"ion-arrow-shrink","title":"Reset View","onClick":"function(btn, map){ map.setView(map._initialCenter, map._initialZoom); }","position":"topleft"}]},{"method":"addPopups","args":[53.805251,-1.550028,"<a href='https://www.google.co.uk/maps/dir//Nexus+-+University+of+Leeds,+Discovery+Way,+Leeds+LS2+3AA/@53.8052821,-1.5502785,15z/data=!4m9!4m8!1m0!1m5!1m1!1s0x48795c028b513609:0x6014fd660699c8ee!2m2!1d-1.5502785!2d53.8052821!3e0' target='_blank' style='font-weight:bold'>Nexus<\/a><br/>Discovery Way<br/>University of Leeds<br/>Leeds, LS2 3AA",null,null,{"maxWidth":300,"minWidth":50,"autoPan":true,"keepInView":false,"closeButton":false,"closeOnClick":false,"className":"","autoClose":false}]}],"limits":{"lat":[53.805251,53.805251],"lng":[-1.550028,-1.550028]}},"evals":["calls.1.args.0.onClick"],"jsHooks":{"render":[{"code":"function(el, x, data) {\n  return (\nfunction(el, x){\n  var map = this;\n  map.whenReady(function(){\n    map._initialCenter = map.getCenter();\n    map._initialZoom = map.getZoom();\n  });\n}).call(this.getMap(), el, x, data);\n}","data":null}]}}</script>
 </div>
 </div>
 </section>
 <section id="sec-organisers" class="level1">
 <h1>Organisers</h1>
-<section id="student-committee" class="level2">
-<h2 class="anchored" data-anchor-id="student-committee">Student Committee</h2>
-<div id="listing-students" class="quarto-listing quarto-listing-container-custom">
-<div class="d-grid gap-4" style="grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));">
-
-    <div class="text-center">
-        
-            <img class="rounded-circle img-fluid" src="assets/imgs/placeholder.png" style="max-width: 200px">
-        
-        <p class="fs-4 mt-2 mb-0">TBC</p>
-        <p class="mb-0">TBC</p>
-    </div>
-
-    <div class="text-center">
-        
-            <img class="rounded-circle img-fluid" src="assets/imgs/placeholder.png" style="max-width: 200px">
-        
-        <p class="fs-4 mt-2 mb-0">TBC</p>
-        <p class="mb-0">TBC</p>
-    </div>
-
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</section>
 <section id="cdt-executive-board" class="level2">
 <h2 class="anchored" data-anchor-id="cdt-executive-board">CDT Executive Board</h2>
 <div id="listing-exec" class="quarto-listing quarto-listing-container-custom">

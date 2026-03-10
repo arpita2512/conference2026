@@ -1,7 +1,7 @@
 ---
-title: "UKRI Centre for Doctoral Training in<br>AI for Medical Diagnosis and Care<br><br>Annual CDT Conference<br><b><br><br>"
+title: "<br><br>AI-Medical PGR Conference<br><b><br><br>"
 subtitle: "{{< fa solid calendar-days >}}<b> Tuesday, 16 June 2026<br> {{< fa location-dot >}} Nexus, Leeds</b>"
-pagetitle: "AI-Medical CDT Conference 2026"
+pagetitle: "AI-Medical PGR Conference 2026"
 
 title-block-banner: "#00000000"
 title-block-banner-color: "#000000"
@@ -34,24 +34,18 @@ include-in-header:
       </script>
 
 listing: 
-  - id: keynotes
+  - id: speakers
     template: assets/styles/keynotes_grid.ejs
     contents: listings/keynotes.yml
   - id: exec
     template: assets/styles/organisers_grid.ejs
     contents: listings/exec.yml
-  - id: students
-    template: assets/styles/organisers_grid.ejs
-    contents: listings/students.yml
   - id: agenda
     contents: listings/agenda.yml
     template: assets/styles/agenda.ejs
   - id: gallery
     template: assets/styles/gallery.ejs
     contents: listings/gallery.yml
-  - id: panel
-    template: assets/styles/panel.ejs
-    contents: listings/panel.yml
 ---
 
 <div class="button-container">
@@ -113,14 +107,9 @@ If your abstract is accepted, you will:
 
 ### Notification of Acceptance: 1st May 2026
 
-# Keynotes {#sec-keynotes}
+# Speakers {#sec-speakers}
 
-:::{#keynotes}
-:::
-
-# Industry Panel {#sec-panel}
-
-:::{#panel}
+:::{#speakers}
 :::
 
 # Agenda {#sec-agenda}
@@ -153,11 +142,6 @@ leaflet() %>% setView(-1.550028, 53.805251, zoom = 15) %>% addTiles() %>% addRes
 ```
 
 # Organisers {#sec-organisers}
-
-## Student Committee
-
-:::{#students}
-:::
 
 ## CDT Executive Board
 

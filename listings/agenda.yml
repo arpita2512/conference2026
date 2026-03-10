@@ -1,56 +1,54 @@
-- time: "10:00-10:30"
-  title: "Registration"
+- time: "09:00-09:30"
+  title: "Registration and networking"
   description: "Sign in at the registration desk"
   logo: assets/imgs/icons/reg.png
 
-- time: "10:30-10:35"
-  title: "Welcome and Introduction"
+- time: "09:30-09:35"
+  title: "Welcome"
   description: "A warm welcome and an introduction to the event from our CDT director."
   logo: assets/imgs/icons/keynote.png
 
-- time: "10:35-11:30"
-  title: "Keynote by Florian Markowetz"
-  description: "All models are wrong and yours are useless: making clinical prediction models impactful for patients"
-  abstract: listings/keynote1_abs.html
-  logo: assets/imgs/icons/keynote.png
-
-- time: "11:30-12:00"
-  title: "Spotlights - Session 1"
-  description: "A collection of short presentations by CDT students showcasing their research."
+- time: "09:35-11:00"
+  title: "AI for Health PGR community – Part 1"
+  description: "A collection of short presentations by students showcasing their research."
   logo: assets/imgs/icons/spotlight.png
 
-- time: "12:00-13:00"
-  title: "Posters - Session 1"
-  description: "Time to unleash your inner art critic for poster presentations from our CDT students."
+- time: "11:00-11:30"
+  title: "PGR posters and networking with coffee/tea"
+  description: "Time to unleash your inner art critic for poster presentations from students."
   logo: assets/imgs/icons/poster.png 
 
-- time: "13:00-14:00"
-  title: "Lunch and Networking"
+- time: "11:30-12:45"
+  title: "Developing responsible and trustworthy AI"
+  description: "A discussion about building responsible and trustworthy AI"
+  logo: assets/imgs/icons/panel.png
+
+- time: "12:45-13:45"
+  title: "Networking Lunch"
   description: "The heart and soul of any conference is the food and networking."
   logo: assets/imgs/icons/food.png
 
-- time: "14:00-15:00"
-  title: "Keynote by Pearl Pu"
-  description: "Building Empathetic AI: Reflections on Experimental Design and the Future of AI"
-  abstract: listings/keynote2_abs.html
-  logo: assets/imgs/icons/keynote.png
-
-- time: "15:00-15:30"
-  title: "Spotlights - Session 2"
-  description: "A collection of short presentations by CDT students showcasing their research."
+- time: "13:45-15:00"
+  title: "AI for Health PGR community – Part 2"
+  description: "A collection of short presentations by students showcasing their research."
   logo: assets/imgs/icons/spotlight.png
 
-- time: "15:30-16:30"
-  title: "Posters - Session 2"
-  description: "Time to unleash your inner art critic for poster presentations from our CDT students."
+- time: "15:00-15:30"
+  title: "PGR posters and networking with coffee/tea"
+  description: "Time to unleash your inner art critic for poster presentations from students."
   logo: assets/imgs/icons/poster.png 
 
-- time: "16:30-18:00"
-  title: "Industry Panel"
-  description: "A discussion about cutting-edge commercial research at the intersection of AI and healthcare."
+- time: "15:30-16:45"
+  title: "Challenges for the regulation of Medical AI (TBC)"
+  description: "A discussion about regulatory guidleines for developing medical AI"
   logo: assets/imgs/icons/panel.png
 
-- time: "18:00-20:00"
-  title: "Reception and Dinner"
+- time: "16:45-16:50"
+  title: "Closing Remarks"
+  description: "Concluding remarks and thanks from our CDT director."
+  logo: assets/imgs/icons/keynote.png
+
+- time: "16:45 onwards"
+  title: "Drinks Reception"
   description: "The heart and soul of any conference is the food and networking."
   logo: assets/imgs/icons/food.png
