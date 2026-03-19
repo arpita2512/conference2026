@@ -17,7 +17,7 @@ include-in-header:
         background-position-y: center;
       }
       #title-block-header {
-        background-image: url(./assets/imgs/banner_cropped.jpg);
+        background-image: url(./assets/imgs/cdt1.jpeg);
         background-size: cover;
         background-position-y: center;
         height: 400px;
@@ -35,8 +35,8 @@ include-in-header:
 
 listing: 
   - id: speakers
-    template: assets/styles/keynotes_grid.ejs
-    contents: listings/keynotes.yml
+    template: assets/styles/panel.ejs
+    contents: listings/panel.yml
   - id: exec
     template: assets/styles/organisers_grid.ejs
     contents: listings/exec.yml
@@ -59,15 +59,17 @@ listing:
 
 <div style="text-align: justify; font-weight:600">
 
-AI‑Medical PGR Conference 2026 — a gathering built on curiosity, collaboration, and the shared ambition to reshape the future of artificial intelligence (AI) in healthcare.
+AI-Medical Postgraduate Researcher Conference (PGRs) 2026 — a gathering built on curiosity, collaboration, and the shared ambition to reshape the future of artificial intelligence (AI) in healthcare.
 
 </div>
 
 <div style="text-align: justify; font-weight:400">
 
-This conference is at the intersection of two of the most transformative forces of our time: AI and medicine. It is an event tailored for postgraduate researchers at the University of Leeds who are pushing boundaries, questioning ideas, and building the tools and insights that will define tomorrow’s clinical landscape. Whether your research explores machine learning for diagnostics, ethics and governance for AI deployment, robotics in surgery, or data‑driven public health, this event celebrates the diversity and depth of innovation happening across the field.
+This conference is at the intersection of two of the most transformative forces of our time: AI and medicine. It is an event tailored for postgraduate researchers at the University of Leeds who are pushing boundaries, questioning ideas, and building the tools and insights that will define tomorrow’s clinical landscape. Whether your research explores machine learning for diagnostics, ethics and governance for AI deployment, robotics in surgery, or data-driven public health, this event celebrates the diversity and depth of innovation happening across the field.
 
-This conference brings together the PhD students, academics, and industry partners, offering a dynamic platform to explore and discuss the latest research. We hope that the event will provide an opportunity for our diverse network of researchers and healthcare professionals to reconnect and seek further opportunities for collaboration.
+The conference brings together PhD students, academics, and industry partners, offering a dynamic platform to explore and discuss the latest research. Come and learn about the latest advances in student research.
+
+The aim of the conference is to bring together PhD students, academics, and industry partners, creating a dynamic platform to explore and discuss cutting-edge research. Join us to discover the latest advances emerging from student-led work.
 
 The conference is being organised by the UKRI Centre for Doctoral Training in AI for Medical Diagnosis and Care.
 
@@ -78,35 +80,30 @@ The conference is being organised by the UKRI Centre for Doctoral Training in AI
 
 # Call For Abstracts {#sec-cfa}
 
-<div style="text-align: justify; font-weight:400">
-
-We are pleased to invite Postgraduate Researchers (PGRs) at the University to submit abstracts for the AI-Medical PGR Conference 2026, a dedicated forum for showcasing innovative research at the intersection of artificial intelligence and healthcare.
-
-</div>
-
 <div style="text-align: left; font-weight:400">
 
 ### Core Themes
 
 We encourage submissions including, but not limited to: 
 
-- Clinical Decision Support: AI-powered diagnostics, predictive analytics, and personalized treatment planning. 
-- Ethics & Governance: Algorithmic bias, data privacy, explainability (XAI), and regulatory frameworks. 
+- Clinical Decision Support: AI-powered Screening and Early Detection, Diagnosis, and Treatment and Care
+- Ethics & Governance: Algorithmic bias, data privacy, explainability (XAI), and regulatory frameworks.
 - Digital Health: Wearable technology, med-tech, digital twins, and AI-driven patient-centred care. 
-- Drug Discovery: AI in pharmacology and large-scale cohort data analysis. 
+- AI surgical robotics and healthcare scientists
+- Drug Discovery: AI in pharmacology and large-scale cohort data analysis.
 
 ### Abstract Submission Guidelines
 
-- Format: No more than one side of A4 in the form of a structured abstract (Background, Methods, Results, and Conclusions). References and images may be included. 
-- Word Limit: Maximum 300 words (excluding any references and image captions). 
+- Format: A structured abstract (Background, Methods, Results, and Conclusions). References and images may be included.
+- Word Limit: Maximum 300 words (excluding any references and image captions).
 
 ### Delegate Benefits
 
 If your abstract is accepted, you will: 
 
-- Present Your Work: Deliver a 2-minute spotlight presentation and showcase a research poster during a dedicated session. 
-- Receive Expert Feedback: Engage in Q&A with leading clinicians, AI innovators, and senior academics. 
-- Network & Collaborate: Join a multidisciplinary community of PGR students, industry and public sector partners to forge potential research collaborations. 
+- Present Your Work: Deliver a 2-minute spotlight presentation and showcase a research poster during a dedicated session.
+- Receive Expert Feedback: Engage in a discussion with leading clinicians, AI innovators, and senior academics.
+- Network & Collaborate: Help forge a multidisciplinary community of PGR students, industry and public sector partners working at the cutting edge of AI in healthcare.
 
 ### Submission Deadline: 20th April 2026
 

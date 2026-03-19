@@ -1,18 +1,10 @@
+- name: Ibrahim Habli
+  affiliation: "University of York"
+  image: assets/imgs/panel/ibrahim.jpg
+  href: https://www.cs.york.ac.uk/people/ihabli
+  bio: listings/bio_ibrahim.html
 - name: TBC
-  affiliation: ""
-  role: "TBC"
-  image: assets/imgs/placeholder.png
-  href: ""
-  bio: listings/bio_general.html
-- name: TBC
-  affiliation: ""
-  role: "TBC"
-  image: assets/imgs/placeholder.png
-  href: ""
-  bio: listings/bio_general.html
-- name: TBC
-  affiliation: ""
-  role: "TBC"
+  affiliation: "TBC"
   image: assets/imgs/placeholder.png
   href: ""
   bio: listings/bio_general.html
