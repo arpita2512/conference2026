@@ -3,8 +3,8 @@
   image: assets/imgs/panel/ibrahim.jpg
   href: https://www.cs.york.ac.uk/people/ihabli
   bio: listings/bio_ibrahim.html
-- name: TBC
-  affiliation: "TBC"
-  image: assets/imgs/placeholder.png
-  href: ""
-  bio: listings/bio_general.html
+- name: Jessica Paulsen
+  affiliation: "Medicines and Healthcare products Regulatory Agency"
+  image: assets/imgs/panel/jessica.jpg
+  href: "https://www.linkedin.com/in/jessica-paulsen1/"
+  bio: listings/bio_jessica.html
